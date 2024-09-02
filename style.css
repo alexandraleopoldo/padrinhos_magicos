@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", system-ui;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.888);
+  font-size: 14px;
+  color: white;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+header {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+header .conteudo > img {
+  width: 180px;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  height: 100%;
+}
+
+.box_btn {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn_solid {
+  background-color: rgb(223, 7, 18);
+  color: white;
+  border: none;
+  width: 140px;
+}
+
+.btn_outline {
+  background-color: transparent;
+  color: white;
+  border: solid 1px rgb(142, 118, 118);
+}
+
+.btn {
+  border-radius: 4px;
+  padding: 4px 12px;
+  height: 32px;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+main {
+  flex: 1;
+  max-width: 70%;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 2%;
+}
+h1 span {
+  font-weight: 700;
+  display: block;
+}
+
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titulo img {
+  height: 90px;
+  width: 80px;
+}
+
+.artigos {
+  display: flex;
+  justify-content: space-between;
+  gap: 52px;
+  width: 100%;
+  margin-top: 2%;
+}
+.artigos img {
+  width: 100%;
+  height: 30vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+.artigos article {
+  width: 33%;
+}
+
+h3 {
+  font-weight: 300;
+  padding-top: 24px;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 0.8rem;
+  padding-top: 16px;
+  font-weight: 200;
+  margin-bottom: 10%;
+  color: rgb(207, 203, 203);
+}
+
+footer {
+  display: flex;
+  color: white;
+  height: 70px;
+  width: 100%;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.888);
+}
+footer .conteudo > ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  height: 100%;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+}/*# sourceMappingURL=style.css.map */
